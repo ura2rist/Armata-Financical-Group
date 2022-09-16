@@ -6,4 +6,8 @@
 	<li>Draw Fill Svg</li>
 	<li>Modernizr</li>
 </ul>
-<h3>Состояния(ховеры), поп ап</h3>
+<h2>Тестирование:</h2>
+<ul>
+	<li>W3C HTML</li>
+	<li>W3C CSS</li>
+</ul>
