@@ -180,6 +180,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+  // Модалка
+  const modal = document.querySelector('.modal');
+  const modalButton = document.querySelectorAll('.modal-button');
+  const modalClose = document.querySelector('.modal__close');
+  const modalTitle = document.querySelector('.modal__title');
+
+  modalButton.forEach(function (item) {
+    item.addEventListener('click', function (event) {
+      modal.classList.add('modal_active');
+      body.classList.add('lock');
+
+      modalTitle.innerHTML = event.currentTarget.innerText;
+
+      modalClose.addEventListener('click', function (event) {
+        modal.classList.remove('modal_active');
+        body.classList.remove('lock');
+      });
+    });
+  });
+
   // Слайдер отзывы
   const swiper = new Swiper('.reviews-slider', {
     navigation: {

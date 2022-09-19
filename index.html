@@ -136,7 +136,7 @@
         </div>
       </div>
       <div class="section-footer">
-        <button class="section-footer__button">Заказать оценку</button>
+        <button class="section-footer__button modal-button">Заказать оценку</button>
       </div>
     </section>
     <section class="deals section-wrapper">
@@ -234,7 +234,7 @@
         </ul>
       </div>
       <div class="section-footer">
-        <button class="section-footer__button">Заказать сопровождение</button>
+        <button class="section-footer__button modal-button">Заказать сопровождение</button>
       </div>
     </section>
     <section class="accountant section-wrapper_dark">
@@ -293,7 +293,7 @@
         </div>
       </div>
       <div class="section-footer">
-        <button class="section-footer__button">Заказать бухгалтерские услуги</button>
+        <button class="section-footer__button modal-button">Заказать бухгалтерские услуги</button>
       </div>
     </section>
     <section class="benefits section-wrapper_gray">
@@ -348,7 +348,7 @@
         </ul>
       </div>
       <div class="section-footer">
-        <button class="section-footer__button">Обратиться к нам</button>
+        <button class="section-footer__button modal-button">Обратиться к нам</button>
       </div>
     </section>
     <section class="how section-wrapper_dark">
@@ -410,7 +410,7 @@
         </ul>
       </div>
       <div class="section-footer">
-        <button class="section-footer__button">Оставить заявку</button>
+        <button class="section-footer__button modal-button">Оставить заявку</button>
       </div>
     </section>
     <section class="contacts section-wrapper">
@@ -600,6 +600,28 @@
       <a class="footer__button-up scroll-to" href="#request"><img src="./img/top.png" alt=""></a>
     </div>
   </footer>
+  <div class="modal">
+    <div class="modal__body">
+      <div class="modal__close">
+        <span class="modal__close-line"></span>
+        <span class="modal__close-line"></span>
+      </div>
+      <form action="#" class="modal__form">
+        <h2 class="modal__title">Заказать бухгалтерские услуги</h2>
+        <p class="modal__description">Оставьте заявку и мы свяжемся с вами в течение 15 минут в рабочее время с 10:00 до
+          18:00 c пн-пт.</p>
+        <div class="main-form__wrapp-input">
+          <label for="modal__form__input-name" class="main-form__label">Ваше имя:</label>
+          <input type="text" id="modal__form__input-name"
+            class="main-form__input bottom__form__input main-form__input-name">
+          <label for="modal__form__input-phone" class="main-form__label">Ваш телефон:</label>
+          <input type="text" id="modal__form__input-phone"
+            class="main-form__input bottom__form__input main-form__input-phone">
+        </div>
+        <input type="submit" value="Отправить" class="main-form__input-submit">
+      </form>
+    </div>
+  </div>
   <script src="./libs/swiper-bundle.min.js"></script>
   <script src="./libs/modernizr.js"></script>
   <script src="./libs/drawfillsvg.js"></script>
