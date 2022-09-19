@@ -1,0 +1,13 @@
+{
+  "name": "Armata Financical Group",
+  "short_name": "AFG",
+  "lang": "ru-RU",
+  "start_url": "https://ura2rist.github.io/Armata-Financical-Group/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/img/logo.png"
+    }
+  ]
+}
